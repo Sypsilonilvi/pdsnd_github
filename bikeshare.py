@@ -204,8 +204,8 @@ def view_data(df):
 
     while True:
         if view_data == 'yes':
-            print(df.iloc[start_loc:start_loc+5])
-            start_loc += 5
+            print(df.iloc[start_loc:start_loc+10])
+            start_loc += 10
             view_display = input("Do you wish to continue?: ").lower()
             if view_display != 'yes':
                 print('Okay, I am not going to display more data.')
