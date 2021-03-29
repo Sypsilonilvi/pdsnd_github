@@ -201,7 +201,7 @@ def user_stats(df):
 def view_data(df):
     """ Asks user if they want to look at more rows of data. """
 
-    view_data = input ('Would you like to view 5 rows of individual trip data? Enter yes or no. ').lower()
+    view_data = input ('Would you like to view 10 rows of individual trip data? Enter yes or no. ').lower()
     start_loc = 0
     df = df.drop(columns = df.columns[0])
 
