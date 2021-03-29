@@ -47,7 +47,7 @@ Returns:
     # TO DO: get user input for day of week (all, Mondayday, Tuesdaysday, ... Sundayday)
     while True:
         days = ['All', 'Monday', 'Tuesdays', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-        day = input('Which day do you want to look at? Monday, Tuesday, ... , Sunday or All? ').title()
+        day = input('Which day do you want me to show you? Monday, Tuesday, ... , Sunday or All? ').title()
 
         if day in days:
             print('Great, I''ll get you the data for {}.'.format(day))
